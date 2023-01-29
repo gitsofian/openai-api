@@ -8,4 +8,5 @@ prompt = "Say this is a test"
 response = openai.Completion.create(
     engine="text-davinci-001", prompt=prompt, max_tokens=6)
 
+
 print(response)
